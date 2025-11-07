@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
+    <img height="100" src="https://github.com/">
 </p>
 
 <h1 align="center">Developer Portfolio</h1>
@@ -35,11 +35,11 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 ## Demo :movie_camera:
 
 <p align="center">
-  <img src="./public/image/screen.png" alt="Portfolio Screenshot" width="100%">
+  <img src="/" alt="Portfolio Screenshot" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://abusaid.netlify.app/" target="_blank">
+  <a href="/" target="_blank">
     <strong>🚀 View Live Demo</strong>
   </a>
 </p>
@@ -287,21 +287,21 @@ All portfolio content is managed through data files in the `utils/data/` folder:
 
 ```javascript
 export const personalData = {
-  name: "YOUR NAME",
-  profile: "/profile.png", // Path to your profile image
-  designation: "Software Developer", // Your job title
-  description: "Your bio and introduction...", // About yourself
-  email: "your.email@example.com",
-  phone: "+1234567890",
-  address: "City, Country",
-  github: "https://github.com/yourusername",
-  facebook: "https://www.facebook.com/yourprofile",
-  linkedIn: "https://www.linkedin.com/in/yourprofile",
-  twitter: "https://twitter.com/yourusername",
-  stackOverflow: "https://stackoverflow.com/users/your-id",
-  leetcode: "https://leetcode.com/yourusername/",
-  devUsername: "yourusername", // dev.to username for blog integration
-  resume: "https://link-to-your-resume.pdf",
+  name: 'YOUR NAME',
+  profile: '/profile.png', // Path to your profile image
+  designation: 'Software Developer', // Your job title
+  description: 'Your bio and introduction...', // About yourself
+  email: 'your.email@example.com',
+  phone: '+1234567890',
+  address: 'City, Country',
+  github: 'https://github.com/yourusername',
+  facebook: 'https://www.facebook.com/yourprofile',
+  linkedIn: 'https://www.linkedin.com/in/yourprofile',
+  twitter: 'https://twitter.com/yourusername',
+  stackOverflow: 'https://stackoverflow.com/users/your-id',
+  leetcode: 'https://leetcode.com/yourusername/',
+  devUsername: 'yourusername', // dev.to username for blog integration
+  resume: 'https://link-to-your-resume.pdf',
 };
 ```
 
@@ -320,7 +320,7 @@ export const personalData = {
 Place your profile picture in the `public/` directory and update the `profile` field in `personal-data.js`:
 
 ```javascript
-profile: "/your-image-name.png"; // or .jpg, .webp
+profile: '/your-image-name.png'; // or .jpg, .webp
 ```
 
 ---
@@ -421,7 +421,7 @@ TELEGRAM_CHAT_ID=123456789
 ```javascript
 export const personalData = {
   // ... other fields
-  devUsername: "yourusername",
+  devUsername: 'yourusername',
 };
 ```
 
